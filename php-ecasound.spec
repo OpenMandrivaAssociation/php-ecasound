@@ -7,7 +7,7 @@
 Summary:	%{realname} provides audio recording and processing functions for PHP
 Name:		php-%{modname}
 Version:	0.2
-Release:	%mkrel 6
+Release:	%mkrel 7
 Group:		Development/PHP
 License:	PHP License
 URL:		http://pecl.php.net/package/ecasound
@@ -63,5 +63,3 @@ install -m0755 %{soname} %{buildroot}%{_libdir}/php/extensions/
 %doc CREDITS ECASOUND_HOWTO README* ecasound.php
 %attr(0644,root,root) %config(noreplace) %{_sysconfdir}/php.d/%{inifile}
 %attr(0755,root,root) %{_libdir}/php/extensions/%{soname}
-
-
