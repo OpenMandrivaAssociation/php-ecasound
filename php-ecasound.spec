@@ -17,7 +17,6 @@ Requires:	php-cli >= 3:5.2.0
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	libecasound-devel
 Requires:	ecasound
-BuildRoot:	%{_tmppath}/%{name}-root
 
 %description
 This extension wraps the Ecasound libraries to provide advanced audio
