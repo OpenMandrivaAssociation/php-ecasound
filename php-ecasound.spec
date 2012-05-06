@@ -13,6 +13,7 @@ License:	PHP License
 URL:		http://pecl.php.net/package/ecasound
 Source0:	%{realname}-%{version}.tar.bz2
 Source1:	%{modname}.ini
+Patch0:		Ecasound-0.2-php54x.diff
 Requires:	php-cli >= 3:5.2.0
 BuildRequires:	php-devel >= 3:5.2.0
 BuildRequires:	libecasound-devel
@@ -26,6 +27,8 @@ processing capabilities.
 %prep
 
 %setup -q -n %{realname}-%{version}
+
+%patch0 -p0
 
 cp %{SOURCE1} %{inifile}
 
