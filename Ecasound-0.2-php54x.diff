@@ -1,0 +1,11 @@
+--- ecasound.c	2003-01-18 19:28:55.000000000 +0100
++++ ecasound.c.oden	2012-05-06 13:37:47.990396010 +0200
+@@ -46,7 +46,7 @@ static int le_ecasound;
+  *
+  * Every user visible function must have an entry in ecasound_functions[].
+  */
+-function_entry ecasound_functions[] = {
++zend_function_entry ecasound_functions[] = {
+ 	PHP_FE(eci_init,	NULL)	
+ 	PHP_FE(eci_cleanup,	NULL)	
+ 	PHP_FE(eci_command,	NULL)	
