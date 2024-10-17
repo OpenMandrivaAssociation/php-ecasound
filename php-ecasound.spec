@@ -10,7 +10,7 @@ Version:	0.2
 Release:	%mkrel 34
 Group:		Development/PHP
 License:	PHP License
-URL:		http://pecl.php.net/package/ecasound
+URL:		https://pecl.php.net/package/ecasound
 Source0:	%{realname}-%{version}.tar.bz2
 Source1:	%{modname}.ini
 Patch0:		Ecasound-0.2-php54x.diff
