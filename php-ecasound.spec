@@ -7,7 +7,7 @@
 Summary:	%{realname} provides audio recording and processing functions for PHP
 Name:		php-%{modname}
 Version:	0.2
-Release:	%mkrel 34
+Release:	35
 Group:		Development/PHP
 License:	PHP License
 URL:		https://pecl.php.net/package/ecasound
